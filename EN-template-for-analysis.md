@@ -27,11 +27,24 @@ The goal of this project is to demonstrate our knowledge of the key concepts tau
  
 The dataset being used for this project consists of the number of permits issued monthly for construction, demolition, and pool enclosure projects by the city of Ottawa. The source of this information is the city of Ottawa’s open data portal, an extremely useful tool that this course has utilized throughout the semester. The creator of the dataset collected information such as the addresses, wards, building type, contractor, postal code etc. 
 
-[Link to dataset](https://docs.google.com/spreadsheets/d/1buEjY8FHbiGG7ASw9OTzUaKIsNsW6RLX--uKS8zwzNo/edit?usp=sharing)
+### [The dataset used](https://docs.google.com/spreadsheets/d/1buEjY8FHbiGG7ASw9OTzUaKIsNsW6RLX--uKS8zwzNo/edit?usp=sharing)
+<br>
 
 ## 2. Getting Data
 
-Use two hashtag symbols (`##`) to create a level 2 heading like this one.
+As it was mentioned in the instructions, the CSV file was too large to use the IMPORTDATA function. This is why I decided to use the provided google sheets document, and simply made a copy of it so that I was able to edit properly. However, I could have also saved the CSV file to my computer and then imported it into a new google sheets document as well. 
+![](InitialDataset.png)
+<br>
+This dataset was made by a private creator, and they published it on February 11, 2020. The most recent update to this database was completed on February 13, 2021, nearly exactly one year after it was published. This is a very large dataset! It consists of sixteen columns and twelve-thousand five-hundred and forty nine rows.  
+
+There are a variety of variable types present in this dataset. However, there are certain types that appear much more often than others. For example, columns like application type, description, municipality, contractor etc. all fall under the nominal variables categorie. These columns are not measured as numbers, but you can easily calculate how many times the specific values appear in the dataset. The argument could be made that there are either one or no ordinal variables whatsoever. The only column to potentially meet the criteria for this is column L. This column indicates the value of each permit (the higher the value the higher it is on the ranking scale), but there is no clear set range for the ranking scale. The dataset also includes many discrete variables, such as column A, which lists the street numbers the permits have been issued to. 
+
+**The main things that caught my attention at first glance are:**
+- The sheer magnitude of the dataset (it is huge!)
+- The number of columns I will be able to delete
+- The decent formatting, it can easily be re-organized into a cleaner format
+- There are some empty cells, most of which come from the LOT column
+
 
 ### 2.1. Importation
 
