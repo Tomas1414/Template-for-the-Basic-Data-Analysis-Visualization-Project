@@ -1,6 +1,6 @@
-**Date**<br>
-**Course Code & Course Name**<br>
-**Student's First Name & Last Name**<br>
+**November 29,2021**<br>
+**MPAD2003 Introductory Data Storytelling**<br>
+**Tomas Cavanagh**<br>
 **Presented to Jean-Sébastien Marier**<br>
 
 # Project 2: Basic Data Analysis & Visualization
