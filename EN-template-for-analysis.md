@@ -68,7 +68,13 @@ This also shows how to create an ordered list. Simply put `1.` before each item.
 
 ## 3. Understanding Data
 
-Insert text here.
+I accomplished all of my data cleaning thanks to the various tools available through google sheets. That veing said, I did not use OpenRefine.
+I began the cleaning process by deleting all columns I felt were irrelevant to the information I was searching for. While they could be useful in other projects, they served no purpose for mine. Columns A,B,C, and N were some that fell under this category. I continued on by freezing the first row (headers), and then applied a filter to it as well. This was accomplished by using the 'tools' and 'data' add ons at the top of google sheets. At this point I had a much more manageable dataset, but there was still much more work to be done. 
+![](CleanDataset.png)<br>
+
+![](PivotTable.png)<br>
+
+![](chart.png)
 
 ## 4. Delivering Data
 
