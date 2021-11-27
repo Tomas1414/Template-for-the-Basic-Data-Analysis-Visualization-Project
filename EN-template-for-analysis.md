@@ -93,6 +93,12 @@ RESULT: Shifted dates written in french to english
 
 ![](chart.png)
 
+After cleaning and analyzing the data, there is one glaringly obvious statistic that is practically impossible to ignore. The difference in value between the three application types is astounding. On two opposite ends of the spectrum there is pool enclosures and construction. Pool enclosures contain a total value of zero, and construction holds a total value upwards of 7.5 billion dollars! <br>
+The underlying story that my analysis made very apparent is how the wards compare to each other. Ward 6 is the clear front runner in terms of number of high valued permits issued. It has a total value of just over 1 billion dollars. In contrast, ward 1 has not made many changes. This is made clear as it only has 5 million dollars in total value, only  0.5% of ward 6's total value! <br>
+These same numbers are what I am going to show with my visualization. Obviously they sound quite staggering as you read, but when they are converted into a visual format it represents the data in an even better fashion. The values per application type for each ward are what will be presented in the visualization.
+
+### [Public link for final spreadsheet](https://docs.google.com/spreadsheets/d/1buEjY8FHbiGG7ASw9OTzUaKIsNsW6RLX--uKS8zwzNo/edit?usp=sharing)
+
 ## 4. Delivering Data
 
 Insert text here.
