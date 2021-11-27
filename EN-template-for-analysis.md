@@ -68,8 +68,9 @@ This also shows how to create an ordered list. Simply put `1.` before each item.
 
 ## 3. Understanding Data
 
-I accomplished all of my data cleaning thanks to the various tools available through google sheets. That veing said, I did not use OpenRefine.
-I began the cleaning process by deleting all columns I felt were irrelevant to the information I was searching for. While they could be useful in other projects, they served no purpose for mine. Columns A,B,C, and N were some that fell under this category. I continued on by freezing the first row (headers), and then applied a filter to it as well. This was accomplished by using the 'tools' and 'data' add ons at the top of google sheets. At this point I had a much more manageable dataset, but there was still much more work to be done. 
+ I began the cleaning process by deleting all columns I felt were irrelevant to the information I was searching for. While they could be useful in other projects, they served no purpose for mine. Columns A,B,C, and N were some that fell under this category. I continued on by freezing the first row (headers), and then applied a filter to it as well. This was accomplished by using the 'tools' and 'data' add ons at the top of google sheets. The last step in the general cleanup was to remove all of the extra whitespace in the dataset, I simply selected the whole table and pressed 'remove whitespace'. At this point I had a much more manageable dataset, but there was still much more work to be done. <br>
+My next step was to fix up the 'Values' column. I did this by using the find and replace tool. I replaced all spaces with commas. After this, google sheets was now able to recognize the values as a currency so I adjusted the format from general numbers to a specific currency. <br>
+
 ![](CleanDataset.png)<br>
 
 ![](PivotTable.png)<br>
