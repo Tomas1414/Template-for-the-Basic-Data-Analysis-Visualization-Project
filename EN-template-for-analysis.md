@@ -67,9 +67,9 @@ To include a screen capture, use the sample code below. Your images should be sa
 This also shows how to create an ordered list. Simply put `1.` before each item.
 
 ## 3. Understanding Data
-
  I began the cleaning process by deleting all columns I felt were irrelevant to the information I was searching for. While they could be useful in other projects, they served no purpose for mine. Columns A,B,C, and N were some that fell under this category. I continued on by freezing the first row (headers), and then applied a filter to it as well. This was accomplished by using the 'tools' and 'data' add ons at the top of google sheets. The last step in the general cleanup was to remove all of the extra whitespace in the dataset, I simply selected the whole table and pressed 'remove whitespace'. At this point I had a much more manageable dataset, but there was still much more work to be done. <br>
 My next step was to fix up the 'Values' column. I did this by using the find and replace tool. I replaced all spaces with commas. After this, google sheets was now able to recognize the values as a currency so I adjusted the format from general numbers to a specific currency. <br>
+The final major adjustments that I made were to the 'issued date' column. Firstly, I used the GOOGLETRANSLATE function to convert all of the dates to english (as they seemed to switch between the two languages). However, I ran into a bit of an issue. The abbreviation for september: "sept", translated to "seven". To fix this, I copied the column and then pasted it as values only. Thanks to this I was able to utilize the find and replace tool yet again, replacing all "sevens'' with "september". Afterwards, I made a couple other minor adjustments to the month's acronyms and the dates were finally in a consistent format.
 
 ![](CleanDataset.png)<br>
 
