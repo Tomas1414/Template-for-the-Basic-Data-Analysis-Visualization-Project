@@ -72,7 +72,7 @@ Once my data had been uploaded, it was a matter of specifying titles, values, de
 
 ## 5. Conclusion
 
-Thank you for reading my report.
+In conclusion, construction is by far the most valuable out of the three application types. This was demonstrated through the spreadsheet and then made glaringly obvious because of the visualzation. 
 
 ## 6. References
 
