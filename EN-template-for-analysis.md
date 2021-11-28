@@ -37,8 +37,10 @@ I did not use either of the SPLIT or CONCATENATE functions to reformat the data.
 
 ![](CleanDataset.png)<br>
 
+At this point I certainly had reasons to question the validity of the dataset. There were a few errors and inconsistent data in certain sections. As it was mentioned in our class textbook, "Data from sources that are widely considered reliable shouldn’t be free from scrutiny and skepticism." (Cairo, 2016). Even though this data came from the city of Ottawa's open data portal (a reliable source), does not mean we should blindly trust all of the information being put forward.
+
 ```r
-FUNCTIONS USED:
+FUNCTIONS USED FOR CLEANING/ANALYSIS:
 =SUM() 
 The number of dwelling units in the dataset RESULT: 35,395 
 =MODE() 
