@@ -100,8 +100,14 @@ These same numbers are what I am going to show with my visualization. Obviously 
 ### [Public link for final spreadsheet](https://docs.google.com/spreadsheets/d/1buEjY8FHbiGG7ASw9OTzUaKIsNsW6RLX--uKS8zwzNo/edit?usp=sharing)
 
 ## 4. Delivering Data
+To prepare the data for visualization I had to reverse one of my big steps in the cleaning data process. I had to change the values column in my pivot table back to regular numbers, rather than a currency. I used the pivot table rather than uploading the entire spreadsheet to datawrapper. This simplified the process, as all of the information needed for my chart was already in the pivot table. 
+Once my data had been uploaded, it was a matter of specifying titles, values, design choices, scale etc. to bring my visualization to life.
+ <br><br>
+*The graph created with Datawrapper*
+![](DataWrapper.png)
+### [Public Link for Interactive Chart](https://datawrapper.dwcdn.net/CjNaw/1/)
 
-Insert text here.
+ I chose a column chart because it was the clear choice as to what would best represent the story I am telling. This chart (along with some design specifications) do a nice job at illustrating the contrast between both the individual ward values, and between the application types as a whole. The highlighted bars show the most valuable ward for construction (6) and for demolition (15). Having both the scale on the left hand side and the numbers above each column when you hover over ensures that nothing is left to the imagination for viewers. I chose to include the pool enclosures even though it presents no data because it completes the trifecta of application types.
 
 **This section should include a screen capture of your chart and its public link, like so:**
 
