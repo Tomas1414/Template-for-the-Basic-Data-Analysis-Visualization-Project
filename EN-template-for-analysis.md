@@ -11,7 +11,7 @@ The goal of this project is to demonstrate our knowledge of the key concepts tau
  
 The dataset being used for this project consists of the number of permits issued monthly for construction, demolition, and pool enclosure projects by the city of Ottawa. The source of this information is the city of Ottawa’s open data portal, an extremely useful tool that this course has utilized throughout the semester. The creator of the dataset collected information such as the addresses, wards, building type, contractor, postal code etc. 
 
-### [The dataset used](https://docs.google.com/spreadsheets/d/1buEjY8FHbiGG7ASw9OTzUaKIsNsW6RLX--uKS8zwzNo/edit?usp=sharing)
+### [The Initial Dataset](https://docs.google.com/spreadsheets/d/1TwW-S211qdSpu0tmzJvGZVCGNHnmIvjybk6GPFkOZl4/edit?usp=sharing)
 <br>
 
 ## 2. Getting Data
@@ -79,4 +79,12 @@ It is important to note that this is only one story that I have pulled out of th
 
 ## 6. References
 
-Include a list of your references here.
+Basic Writing and Formatting Syntax. (n.d.)“Basic Writing and Formatting Syntax.” GitHub Docs, docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax. <br>
+
+Private Member. (Feb 11, 2020) “Construction, Demolition, and Pool Enclosure Permits Monthly - 2020.” Open Ottawa, open.ottawa.ca/documents/ottawa::construction-demolition-and-pool-enclosure-permits-monthly-2020/about. <br>
+
+Cairo, A. (2016).  The Truthful Art: Data, Charts, and Maps for Communication. New Riders.<br>
+
+Video "In-Class Demo - Project 2 - Part B" <br>
+
+Video "in-class-demo-project-2"
