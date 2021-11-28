@@ -5,22 +5,6 @@
 
 # Project 2: Basic Data Analysis & Visualization
 
-Use one hashtag symbol (`#`) to create a level 1 heading like this one.
-
-## Foreword
-
-I have been assigning different versions of this project to my digital journalism and data storytelling students for a few years now. Its structure was inspired by the main sections/chapters of [*The Data Journalism Handbook*](https://datajournalism.com/read/handbook/one/). This version was further inspired by the [Key Capabilities in Data Science](https://extendedlearning.ubc.ca/programs/key-capabilities-data-science) program offered by the University of British Columbia (UBC).
-
-**Here are some useful resources for this assignment:**
-
-* [GitHub's *Basic writing and formatting syntax* page](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-* [GitHub Guides: Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
-* [The template repository for this assignment in case you delete something by mistake](https://github.com/jsmarier/Template-for-the-Basic-Data-Analysis-Visualization-Project)
-
-Did you notice how to create a hyperlink? In Markdown, we put the clickable text between square brackets and the actual URL between parentheses.
-
-And to create an unordered list, we simply put a star (`*`) before each item.
-
 ## 1. Introduction
 
 The goal of this project is to demonstrate our knowledge of the key concepts taught in this course. This involves importing a dataset, organizing/cleaning a dataset, analyzing it, and then shifting it into a visual format. The main sections of this assignment follow this exact pattern, while documenting our process as we move through the various stages necessary to manipulate the data in order to deliver a story in a visual format.
@@ -45,33 +29,11 @@ There are a variety of variable types present in this dataset. However, there ar
 - The decent formatting, it can easily be re-organized into a cleaner format
 - There are some empty cells, most of which come from the LOT column
 
-
-### 2.1. Importation
-
-Use three hashtag symbols (`###`) to create a level 3 heading like this one. Please follow this template when it comes to level 1 and level 2 headings. However, you can use level 3 headings as you see fit.
-
-To include a screen capture, use the sample code below. Your images should be saved in the same folder as your `.md` file.
-
-![](import-screen-capture.png)<br>
-*Figure 1: The "Import file" prompt on Google Sheets.*
-
-**Here are examples of functions and lines of code put in grey boxes:**
-
-1. If you name a function, put it between "angled" quotation marks like this: `IMPORTHTML`.
-1. If you want to include the entire line of code, do the same thing, albeit with your entire code: `=IMPORTHTML("https://en.wikipedia.org/wiki/China"; "table", 5)`.
-1. Alternatively, you can put your code in an independent box using the template below:
-
-``` r
-=IMPORTHTML("https://en.wikipedia.org/wiki/China"; "table", 5)
-```
-This also shows how to create an ordered list. Simply put `1.` before each item.
-
 ## 3. Understanding Data
  I began the cleaning process by deleting all columns I felt were irrelevant to the information I was searching for. While they could be useful in other projects, they served no purpose for mine. Columns A,B,C, and N were some that fell under this category. I continued on by freezing the first row (headers), and then applied a filter to it as well. This was accomplished by using the 'tools' and 'data' add ons at the top of google sheets. The last step in the general cleanup was to remove all of the extra whitespace in the dataset, I simply selected the whole table and pressed 'remove whitespace'. At this point I had a much more manageable dataset, but there was still much more work to be done. <br>
 My next step was to fix up the 'Values' column. I did this by using the find and replace tool. I replaced all spaces with commas. After this, google sheets was now able to recognize the values as a currency so I adjusted the format from general numbers to a specific currency. <br>
 The final major adjustments that I made were to the 'issued date' column. Firstly, I used the GOOGLETRANSLATE function to convert all of the dates to english (as they seemed to switch between the two languages). However, I ran into a bit of an issue. The abbreviation for september: "sept", translated to "seven". To fix this, I copied the column and then pasted it as values only. Thanks to this I was able to utilize the find and replace tool yet again, replacing all "sevens'' with "september". Afterwards, I made a couple other minor adjustments to the month's acronyms and the dates were finally in a consistent format.<br>
 I did not use either of the SPLIT or CONCATENATE functions to reformat the data. 
-
 
 ![](CleanDataset.png)<br>
 
@@ -88,7 +50,6 @@ CONSTRUCTION RESULT: 319,471,044.29 DEMOLITION RESULT: 496,268.62 POOL RESULT: 0
 =GOOGLETRANSLATE() 
 RESULT: Shifted dates written in french to english
 ```
-
 ![](PivotTable.png)<br>
 
 ![](chart.png)
@@ -108,12 +69,6 @@ Once my data had been uploaded, it was a matter of specifying titles, values, de
 ### [Public Link for Interactive Chart](https://datawrapper.dwcdn.net/CjNaw/1/)
 
  I chose a column chart because it was the clear choice as to what would best represent the story I am telling. This chart (along with some design specifications) do a nice job at illustrating the contrast between both the individual ward values, and between the application types as a whole. The highlighted bars show the most valuable ward for construction (6) and for demolition (15). Having both the scale on the left hand side and the numbers above each column when you hover over ensures that nothing is left to the imagination for viewers. I chose to include the pool enclosures even though it presents no data because it completes the trifecta of application types.
-
-**This section should include a screen capture of your chart and its public link, like so:**
-
-![](map-screen-capture.png)<br>
-*Figure 2: The map created with Datawrapper*
-[Interactive version here](https://datawrapper.dwcdn.net/o7Wwp/2/)
 
 ## 5. Conclusion
 
