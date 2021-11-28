@@ -72,7 +72,8 @@ Once my data had been uploaded, it was a matter of specifying titles, values, de
 
 ## 5. Conclusion
 
-In conclusion, construction is by far the most valuable out of the three application types. This was demonstrated through the spreadsheet and then made glaringly obvious because of the visualzation. 
+In conclusion, this assignment has given me a real appreciation for the time and effort needed to be a data storyteller. I found that no matter how professional a dataset may seem, it can always be cleaned/organized in different ways to suit a specific story. When first looking at the dataset, it was simply an overwhelming amount of information. However, after some thorough analysis it became glaringly obvious that construction is by far the most valuable out of the three application types.
+It is important to note that this is only one story that I have pulled out of the data. When a dataset is this large there are a ton of different options as to what story you want to tell. Picking out certain columns/variables and focusing on those is what serves as the basis for a story to build on.
 
 ## 6. References
 
